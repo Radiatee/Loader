@@ -4619,9 +4619,6 @@ function library:CreateSettingsTab(menu)
     local settingsTab = menu:AddTab('Settings', 999);
     local configSection = settingsTab:AddSection('Config', 2);
     local mainSection = settingsTab:AddSection('Main', 1);
-    local creditsSection = settingsTab:AddSection('Credits', 2);
-    creditsSection:AddSeparator({text = 'Owner'});
-    creditsSection:AddText({text = "@inapprehension"})
 
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
